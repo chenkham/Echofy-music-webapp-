@@ -1,9 +1,4 @@
-import {
-  Music,
-  Search,
-  Download,
-  Heart,
-} from "lucide-react";
+import { Music, Search, Download, Heart } from "lucide-react";
 
 interface LandingPageProps {
   onSignIn: () => void;
