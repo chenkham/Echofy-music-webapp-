@@ -3,7 +3,6 @@ import {
   Search,
   Heart,
   History,
-  Music,
   ListMusic,
   Settings,
 } from "lucide-react";

@@ -3,8 +3,6 @@ import {
   Search,
   Download,
   Heart,
-  Users,
-  TrendingUp,
 } from "lucide-react";
 
 interface LandingPageProps {

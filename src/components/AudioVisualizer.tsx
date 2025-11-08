@@ -73,7 +73,7 @@ export default function AudioVisualizer({
 
       animationRef.current = requestAnimationFrame(draw);
 
-      analyser.getByteFrequencyData(dataArray);
+      analyser.getByteFrequencyData(dataArray as Uint8Array);
 
       // Clear canvas
       ctx.fillStyle = "rgba(0, 0, 0, 0.1)";
