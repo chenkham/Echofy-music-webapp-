@@ -15,7 +15,7 @@ export default function AudioVisualizer({
   const animationRef = useRef<number>();
   const audioContextRef = useRef<AudioContext | null>(null);
   const analyserRef = useRef<AnalyserNode | null>(null);
-  const dataArrayRef = useRef<Uint8Array | null>(null);
+  const dataArrayRef = useRef<Uint8Array<ArrayBuffer> | null>(null);
 
   useEffect(() => {
     if (!audioRef.current || !canvasRef.current) return;
@@ -73,7 +73,7 @@ export default function AudioVisualizer({
 
       animationRef.current = requestAnimationFrame(draw);
 
-      analyser.getByteFrequencyData(dataArray as Uint8Array);
+      analyser.getByteFrequencyData(dataArray);
 
       // Clear canvas
       ctx.fillStyle = "rgba(0, 0, 0, 0.1)";
