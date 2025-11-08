@@ -424,13 +424,13 @@ export default function Settings({ isOpen, onClose }: SettingsProps) {
               <div className="space-y-4 md:space-y-6">
                 <div className="text-center">
                   <div className="w-24 h-24 md:w-28 md:h-28 mx-auto mb-3 md:mb-4 flex items-center justify-center">
-                    <img 
-                      src="/logo.png" 
-                      alt="Echofy" 
+                    <img
+                      src="/logo.png"
+                      alt="Echofy"
                       className="w-full h-full object-contain drop-shadow-2xl"
-                      style={{ 
-                        mixBlendMode: 'screen',
-                        filter: 'contrast(1.2) saturate(1.3)'
+                      style={{
+                        mixBlendMode: "screen",
+                        filter: "contrast(1.2) saturate(1.3)",
                       }}
                     />
                   </div>

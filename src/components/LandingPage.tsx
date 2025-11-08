@@ -46,13 +46,13 @@ export default function LandingPage({ onSignIn, onSignUp }: LandingPageProps) {
         <div className="text-center max-w-4xl mx-auto">
           <div className="mb-8 flex justify-center">
             <div className="w-32 h-32 flex items-center justify-center">
-              <img 
-                src="/logo.png" 
-                alt="Echofy" 
+              <img
+                src="/logo.png"
+                alt="Echofy"
                 className="w-full h-full object-contain drop-shadow-2xl"
-                style={{ 
-                  mixBlendMode: 'screen',
-                  filter: 'contrast(1.2) saturate(1.3)'
+                style={{
+                  mixBlendMode: "screen",
+                  filter: "contrast(1.2) saturate(1.3)",
                 }}
               />
             </div>
@@ -63,7 +63,8 @@ export default function LandingPage({ onSignIn, onSignUp }: LandingPageProps) {
           </h1>
 
           <p className="text-xl md:text-2xl text-text-secondary mb-12 leading-relaxed">
-            Stream millions of songs, create playlists, and enjoy high-quality music streaming. All in one beautiful app.
+            Stream millions of songs, create playlists, and enjoy high-quality
+            music streaming. All in one beautiful app.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

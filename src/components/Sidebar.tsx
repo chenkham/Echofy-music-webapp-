@@ -45,13 +45,13 @@ export default function Sidebar({
       <div className="p-6 border-b border-white/10">
         <div className="flex items-center gap-3">
           <div className="w-14 h-14 flex items-center justify-center">
-            <img 
-              src="/logo.png" 
-              alt="Echofy" 
+            <img
+              src="/logo.png"
+              alt="Echofy"
               className="w-full h-full object-contain drop-shadow-2xl"
-              style={{ 
-                mixBlendMode: 'screen',
-                filter: 'contrast(1.2) saturate(1.3)'
+              style={{
+                mixBlendMode: "screen",
+                filter: "contrast(1.2) saturate(1.3)",
               }}
             />
           </div>

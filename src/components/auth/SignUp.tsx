@@ -258,13 +258,13 @@ export default function SignUp({ onClose, onSwitchToSignIn }: SignUpProps) {
         {/* Header with Logo */}
         <div className="text-center mb-8">
           <div className="w-20 h-20 mx-auto mb-4 flex items-center justify-center">
-            <img 
-              src="/logo.png" 
-              alt="Echofy" 
+            <img
+              src="/logo.png"
+              alt="Echofy"
               className="w-full h-full object-contain drop-shadow-2xl"
-              style={{ 
-                mixBlendMode: 'screen',
-                filter: 'contrast(1.2) saturate(1.3)'
+              style={{
+                mixBlendMode: "screen",
+                filter: "contrast(1.2) saturate(1.3)",
               }}
             />
           </div>
